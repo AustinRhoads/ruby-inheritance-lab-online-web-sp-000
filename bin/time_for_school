@@ -23,9 +23,9 @@ class Audit < Student
 
 end
 
-jim = Audit.new 
+jim = Audit.new
 jim.first_name = "Jim"
-jim.last_name = "Hendrix" 
-lesson = avi.teach 
-jim.learn(lesson) 
+jim.last_name = "Hendrix"
+lesson = avi.teach
+jim.learn(lesson)
 puts "jim just learn this: #{jim.knowledge.first} from Avi!"
